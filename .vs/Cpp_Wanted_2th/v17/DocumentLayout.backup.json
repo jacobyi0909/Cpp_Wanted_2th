@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\Cpp\\Cpp_Wanted_2th\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0582F6BD-C1A2-499F-9C36-1345CD56A1E0}|ClassExample\\ClassExample.vcxproj|C:\\Project\\Cpp\\Cpp_Wanted_2th\\ClassExample\\ClassExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0582F6BD-C1A2-499F-9C36-1345CD56A1E0}|ClassExample\\ClassExample.vcxproj|solutionrelative:ClassExample\\ClassExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185034EA-2FF9-48A2-90F9-20ADEACF74A1}|ConsoleApplication2\\ConsoleApplication2.vcxproj|C:\\Project\\Cpp\\Cpp_Wanted_2th\\ConsoleApplication2\\ConsoleApplication2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{185034EA-2FF9-48A2-90F9-20ADEACF74A1}|ConsoleApplication2\\ConsoleApplication2.vcxproj|solutionrelative:ConsoleApplication2\\ConsoleApplication2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassExample.cpp",
+              "DocumentMoniker": "C:\\Project\\Cpp\\Cpp_Wanted_2th\\ClassExample\\ClassExample.cpp",
+              "RelativeDocumentMoniker": "ClassExample\\ClassExample.cpp",
+              "ToolTip": "C:\\Project\\Cpp\\Cpp_Wanted_2th\\ClassExample\\ClassExample.cpp",
+              "RelativeToolTip": "ClassExample\\ClassExample.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T07:34:46.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleApplication2.cpp",
+              "DocumentMoniker": "C:\\Project\\Cpp\\Cpp_Wanted_2th\\ConsoleApplication2\\ConsoleApplication2.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication2\\ConsoleApplication2.cpp",
+              "ToolTip": "C:\\Project\\Cpp\\Cpp_Wanted_2th\\ConsoleApplication2\\ConsoleApplication2.cpp",
+              "RelativeToolTip": "ConsoleApplication2\\ConsoleApplication2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T07:32:55.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
