@@ -118,12 +118,91 @@ public:
 	}
 };
 
+//#pragma region MyMacro
+// 매크로 -> 치환
+#define MAX 100
+// 매크로 함수
+#define ADD(a,b) a + b
+
+#define STRING(str) #str
+
+#define STRING2(str1, str2) #str1 ## #str2
+
+//#pragma endregion
+
+#define CHEAT 1
+#define DEV 1
+int gold;
+
 int main()
 {
-	Calc<float> calc;
+#ifdef CHEAT
+	gold = 100000000;
+#elif DEV
+	gold = 10;
+#endif // DEBUG
+
+#if CHEAT == 1
+	gold = 100000000;
+#else
+	gold = 10;
+#endif 
+
+	int a = 10;
+
+	const char* strrrr = "abcd"; // literal
+
+	const char* str1 = STRING(가나다라);
+	const char* str = STRING2(가나, 다라);
+	std::cout << str << std::endl;
+
+	//int a = ADD(1, 2);
+
+	//std::cout << __FUNCTION__ << std::endl;
+
+
+
+
+
+
+	// 스마트 포인터
+	//std::shared_ptr<Unit> pUnit(new Unit());
+	//std::shared_ptr<Unit> pUnit = std::make_shared<Unit>();
+
+
+	//std::shared_ptr<Unit> pUnit2(pUnit);
+	//if (pUnit.unique())
+	//{
+	//	// pUnit이 유니크 하다면 어쩌고 저쩌고
+	//}
+
+	//pUnit2.reset();
+	//pUnit.reset();
+
+	//std::cout << pUnit.use_count() << std::endl;
+
+
+
+	//std::unique_ptr<Unit> pu = std::make_unique<Unit>();
+	
+	
+	/*std::shared_ptr<Unit> ps = std::make_shared<Unit>();
+	std::cout << ps.use_count() << std::endl;
+
+	std::weak_ptr<Unit> pw(ps);
+	std::cout << ps.use_count() << std::endl;
+	
+	pw.lock();
+
+	std::cout << ps.use_count() << std::endl;*/
+
+
+
+
+	/*Calc<float> calc;
 	float rettt = calc.Add(10.f, 20.f);
 
-	int ret = Add<int>(10, 20);
+	int ret = Add<int>(10, 20);*/
 
 
 	
